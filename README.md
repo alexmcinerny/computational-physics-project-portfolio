@@ -11,3 +11,7 @@ The 2D Ising model is numerically analysed in MATLAB to provide insight on how f
 <h3>Solving Laplace's Equation (Dec 2023)</h3> 
 
 We used the successive over-relaxation method in MATLAB to numerically approximate a 2D solution of Laplace’s equation (using finite differences) in a uniform, square grid with specified, distinct boundary conditions on each edge. For different over-relaxation parameters and given boundary conditions, we plotted heat maps of the approximation and analyse the nature with which the algorithm converges to the true (analytic) solution to a desired degree of accuracy. We verified that the optimal over relaxation parameter ($\alpha \approx 1.39$) provides fast convergence, and one that is not within the valid range (1 to 2) leads to an incorrect, divergent solution. Furthermore, we discuss how for small $\alpha$, convergence is monotonic, however oscillatory nature increases as $\alpha$ increases.
+
+<h3>Double Pendulums (Jun 2024)</h3> 
+
+Ongoing--
